@@ -1,0 +1,143 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewListScroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment Management"
+            android:textSize="20sp"
+            android:textColor="#4A4A4A"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp" />
+
+        <!-- View List Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View List by ID"
+            android:textSize="18sp"
+            android:textColor="#4A4A4A"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/filterId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Payment ID to Filter"
+            android:backgroundTint="#A78EBB"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/viewListButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View List"
+            android:backgroundTint="#A78EBB"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#F5F5F5"
+            android:padding="8dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/itemDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#4A4A4A" />
+        </ScrollView>
+
+        <!-- Modify Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modify List"
+            android:textSize="18sp"
+            android:textColor="#4A4A4A"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Modify List Button -->
+        <Button
+            android:id="@+id/modifyListButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modify List"
+            android:backgroundTint="#A78EBB"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp" />
+
+        <LinearLayout
+            android:id="@+id/modifyLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"> <!-- Initially hidden -->
+
+            <EditText
+                android:id="@+id/itemId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Payment ID"
+                android:backgroundTint="#A78EBB"
+                android:layout_marginBottom="8dp" />
+
+            <EditText
+                android:id="@+id/itemName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Payment Amount"
+                android:backgroundTint="#A78EBB"
+                android:layout_marginBottom="8dp" />
+
+            <EditText
+                android:id="@+id/itemDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Payment Detail"
+                android:backgroundTint="#A78EBB"
+                android:layout_marginBottom="8dp" />
+
+            <Button
+                android:id="@+id/addItemButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Item"
+                android:backgroundTint="#A78EBB"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="8dp" />
+
+            <Button
+                android:id="@+id/updateItemButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Edit Item"
+                android:backgroundTint="#A78EBB"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="8dp" />
+
+            <Button
+                android:id="@+id/deleteItemButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delete Item"
+                android:backgroundTint="#A78EBB"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

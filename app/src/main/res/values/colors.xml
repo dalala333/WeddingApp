@@ -1,0 +1,9 @@
+<resources>
+    <color name="colorPrimary">#D8BFD8</color> <!-- Soft lavender -->
+    <color name="colorPrimaryVariant">#B090C0</color> <!-- Darker lavender -->
+    <color name="colorOnPrimary">#000000</color> <!-- Black for text -->
+    <color name="colorSecondary">#C0C0E8</color> <!-- Complementary soft color -->
+    <color name="colorOnSecondary">#000000</color> <!-- Black for text on secondary -->
+    <color name="colorBackground">#FFFFFF</color> <!-- White background -->
+    <color name="textColorPrimary">#333333</color> <!-- Dark grey for readable text -->
+</resources>

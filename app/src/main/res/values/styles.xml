@@ -1,0 +1,12 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#D8BFD8</item> <!-- Soft lavender for primary elements -->
+        <item name="colorPrimaryVariant">#B090C0</item> <!-- Darker lavender variant -->
+        <item name="colorOnPrimary">#000000</item> <!-- Black text for better contrast -->
+        <item name="colorSecondary">#C0C0E8</item> <!-- Soft complementary color -->
+        <item name="colorOnSecondary">#000000</item> <!-- Black text for secondary elements -->
+        <item name="android:windowBackground">#FFFFFF</item> <!-- White background for clarity -->
+        <item name="android:textColorPrimary">#333333</item> <!-- Dark grey for default text -->
+    </style>
+</resources>

@@ -1,0 +1,70 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manager Dashboard"
+            android:textSize="20sp"
+            android:textColor="#4A4A4A"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/viewUpcomingEventsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Upcoming Events" />
+
+        <Button
+            android:id="@+id/viewTotalCostsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Total Costs of Events" />
+
+        <Button
+            android:id="@+id/viewVendorsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Vendors for Activities" />
+
+        <Button
+            android:id="@+id/viewGuestsMealsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Guest Meal Preferences" />
+
+        <Button
+            android:id="@+id/viewIncompletePaymentsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Incomplete Payments" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer Dashboard"
+            android:textSize="20sp"
+            android:textColor="#4A4A4A"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/customerViewEventsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Your Events" />
+
+        <Button
+            android:id="@+id/customerPaymentStatusButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check Payment Status" />
+    </LinearLayout>
+</ScrollView>

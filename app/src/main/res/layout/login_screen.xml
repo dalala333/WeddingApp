@@ -1,0 +1,44 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/loginTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wedding Management Login"
+        android:textSize="24sp"
+        android:textColor="#E6E6FA"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <EditText
+        android:id="@+id/usernameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:layout_margin="20dp"
+        android:backgroundTint="#E6E6FA"
+        android:layout_below="@id/loginTitle" />
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_margin="20dp"
+        android:backgroundTint="#E6E6FA"
+        android:layout_below="@id/usernameInput" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:backgroundTint="#E6E6FA"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/passwordInput" />
+</RelativeLayout>

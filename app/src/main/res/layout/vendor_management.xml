@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vendor Management"
+        android:textSize="20sp"
+        android:textColor="#4A4A4A"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Event ID input -->
+    <EditText
+        android:id="@+id/eventId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Event ID"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Vendor Name input -->
+    <EditText
+        android:id="@+id/vendorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Vendor Name"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Buttons -->
+    <Button
+        android:id="@+id/addVendorButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Vendor"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/updateVendorButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Vendor"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/deleteVendorButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Vendor"
+        android:layout_marginBottom="8dp" />
+
+    <!-- ListView to show vendors -->
+    <ListView
+        android:id="@+id/vendorListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
